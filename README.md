@@ -4,13 +4,14 @@ A real-time webcam app that recognizes static hand gestures with
 [MediaPipe](https://ai.google.dev/edge/mediapipe) hand landmarks and tints the
 screen accordingly.
 
-| Gesture | Action |
-| --- | --- |
-| Both hands as **open palms facing the camera** | Screen gets a **RED** shade (50%) + big `RED RED` label |
-| Both hands making the **metal / rock 🤘 sign** (index + pinky up, middle + ring folded) | Screen gets a **GREEN** shade (50%) + big `GREEN GREEN` label |
+There are two gestures. When you hold up both hands as open palms facing the
+camera, the screen turns red at 50% transparency and a large `RED RED` label
+appears in the center. When you make the metal (rock) sign with both hands,
+raising the index and pinky fingers while folding the middle and ring fingers,
+the screen turns green at 50% transparency with a large `GREEN GREEN` label.
 
-The detected hands are drawn as a neon-green skeleton with yellow joints.
-Press **ESC** or **q** to quit.
+While your hands are tracked, they are drawn on screen as a neon-green skeleton
+with yellow joints. Press **ESC** or **q** at any time to quit.
 
 ## How it works
 
