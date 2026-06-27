@@ -11,12 +11,12 @@ raising the index and pinky fingers while folding the middle and ring fingers,
 the screen turns green at 50% transparency with a large `GREEN GREEN` label.
 
 While your hands are tracked, they are drawn on screen as a neon-green skeleton
-with yellow joints. Press **ESC** or **q** at any time to quit.
+with yellow joints. Press ESC or q at any time to quit.
 
 ## How it works
 
-- **MediaPipe HandLandmarker** (a pre-trained model) finds 21 landmarks per hand each frame.
-- Gestures are detected with simple **geometric rules** on those landmarks
+- MediaPipe HandLandmarker (a pre-trained model) finds 21 landmarks per hand each frame.
+- Gestures are detected with simple geometric rules on those landmarks
   (no training required). Palm-vs-back-of-hand is told apart using the palm
   "winding" (a 2D cross product) combined with handedness.
 
