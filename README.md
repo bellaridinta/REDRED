@@ -65,11 +65,3 @@ python Redgreen.py
 .venv/bin/python Redgreen.py           # macOS / Linux
 ```
 
-## Tuning
-
-Open [`Redgreen.py`](Redgreen.py) and adjust:
-
-- `apply_shade(..., alpha=0.5)` — shade strength.
-- `count_extended_fingers` threshold in `is_open_palm` — how strict "open palm" is.
-- `draw_centered_label(frame, "RED RED", scale=3.0)` — on-screen label size.
-- Colors in `draw_hand` (`NEON_GREEN`, `YELLOW`, both BGR).
