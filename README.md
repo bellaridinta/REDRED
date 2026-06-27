@@ -1,4 +1,4 @@
-# REDRED — Gesture Recognition Camera
+# REDRED - Gesture Recognition Camera
 
 A real-time webcam app that recognizes static hand gestures with
 [MediaPipe](https://ai.google.dev/edge/mediapipe) hand landmarks and tints the
@@ -22,7 +22,7 @@ with yellow joints. Press **ESC** or **q** at any time to quit.
 
 ## Requirements
 
-- Python 3.11+ (developed on 3.14)
+- Python 3.11 or later (developed on 3.14)
 - A webcam
 - Packages in [`requirements.txt`](requirements.txt): `mediapipe`, `opencv-contrib-python`, `numpy`
 - The model file [`hand_landmarker.task`](hand_landmarker.task) (included in this repo)
